@@ -1,0 +1,351 @@
+html{
+	height:100%;
+}
+body{
+	margin:0;
+	color:#58585a;
+	font:12px/20px Arial, Helvetica, sans-serif;
+	background:url(../images/bg-page.png) repeat-x;
+	height:100%;
+}
+img{border-style:none; max-width: 100%;}
+a{
+	text-decoration:none;
+	color:#003889;
+}
+a:hover{text-decoration:underline;}
+input,
+textarea,
+select{
+	font:100% Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	color:#000;
+}
+form,
+fieldset{
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+#wrapper{
+	background:url(../images/bg-wrapper-b.png) no-repeat 0 100%;
+	width:986px;
+	margin:0 auto;
+	min-height:100%;
+}
+.w1{
+	padding:20px 27px 111px 29px;
+	background:url(../images/bg-wrapper-t.png) no-repeat;
+	min-height:902px;
+}
+#header{
+	position:relative;
+	height:280px;
+	margin:0 0 10px;
+}
+#header img{
+	vertical-align:top;
+}
+.logo{
+	background:url(../images/logo.png) no-repeat;
+	width:360px;
+	height:95px;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	top:114px;
+	left:60px;
+}
+.logo a{
+	height:100%;
+	display:block;
+}
+.shadow{
+	background:url(../images/bg-shadow.png) no-repeat;
+	width:772px;
+	height:74px;
+	position:absolute;
+	top:166px;
+	right:10px;
+	z-index:10;
+}
+#nav{
+	background:#003889 url(../images/bg-nav.png) no-repeat;
+	overflow:hidden;
+	height:30px;
+	padding:0 0 0 255px;
+}
+#nav ul{
+	padding:0 1px 0 0;
+	margin:0;
+	list-style:none;
+	background:url(../images/separator4.png) no-repeat 100% 0;
+	float:left;
+}
+#nav ul li{
+	float:left;
+	background:url(../images/separator.png) no-repeat;
+	padding:0 0 0 1px;
+}
+#nav ul a{
+	display:block;
+	height:30px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#nav ul .home{
+	background:url(../images/bg-nav-text.png) no-repeat -1px 0;
+	width:66px;
+}
+#nav ul .home:hover{
+	background-position:-1px -60px;
+}
+#nav ul .active .home{
+	background-position:-1px -30px;
+}
+#nav ul .services{
+	background:url(../images/bg-nav-text.png) no-repeat -68px 0;
+	width:146px;
+}
+#nav ul .services:hover{
+	background-position:-68px -60px;
+}
+#nav ul .active .services{
+	background-position:-68px -30px;
+}
+#nav ul .about{
+	background:url(../images/bg-nav-text.png) no-repeat -215px 0;
+	width:85px;
+}
+#nav ul .about:hover{
+	background-position:-215px -60px;
+}
+#nav ul .active .about{
+	background-position:-215px -30px;
+}
+#nav ul .download{
+	background:url(../images/bg-nav-text.png) no-repeat -301px 0;
+	width:100px;
+}
+#nav ul .download:hover{
+	background-position:-301px -60px;
+}
+#nav ul .active .download{
+	background-position:-301px -30px;
+}
+#nav ul .contact{
+	background:url(../images/bg-nav-text.png) no-repeat -402px 0;
+	width:78px;
+}
+#nav ul .contact:hover{
+	background-position:-402px -60px;
+}
+#nav ul .active .contact{
+	background-position:-402px -30px;
+}
+#main{
+	overflow:hidden;
+	padding:60px 29px 21px 30px;
+	background:url(../images/bg-main.png) no-repeat 147px 100%;
+}
+#two-columns{
+	float:right;
+	width:647px;
+	padding:0 0 0 30px;
+	background:url(../images/separator.png) no-repeat;
+	min-height:503px;
+}
+#content{
+	float:left;
+	width:421px;
+	text-align:justify;
+}
+#content h1{
+	font-size:18px;
+	line-height:22px;
+	margin:-5px 0 21px;
+	color:#013786;
+}
+#content .intro{
+	font-weight:bold;
+}
+#content p{
+	margin:0 0 20px;
+}
+.aside{
+	float:right;
+	width:196px;
+	margin:-1px 0 0;
+}
+.block{
+	margin:0 0 26px;
+}
+.block .heading{
+	overflow:hidden;
+	line-height:18px;
+	padding:0 0 10px;
+}
+.block h2{
+	float:left;
+	font-size:16px;
+	color:#013786;
+	margin:-1px 0 0;
+}
+.current h2{
+	font-size:18px;
+	line-height:24px;
+}
+.block .link{
+	float:left;
+	background:url(../images/separator3.png) no-repeat;
+	padding:0 0 0 13px;
+	margin:0 0 0 10px;
+	line-height:16px;
+}
+.block .link a{
+	color:#013786;
+}
+.item-list{
+	padding:0;
+	margin:0;
+	list-style:none;
+	border-bottom:1px solid #b7b8b9;
+	text-align:justify;
+}
+.item-list li{
+	background:url(../images/separator2.png) no-repeat 50% 0;
+	border-top:1px solid #b7b8b9;
+	padding:10px 0 10px;
+	position:relative;
+}
+.item-list .title{
+	font-weight:normal;
+	display:block;
+	margin:-1px 0 0;
+}
+.item-list .more{
+	white-space:nowrap;
+	font-weight:bold;
+}
+#sidebar{
+	float:left;
+	width:167px;
+}
+.side-nav{
+	padding:0 0 30px;
+	margin:0;
+	list-style:none;
+	font-size:14px;
+	line-height:17px;
+	font-weight:bold;
+	background:url(../images/separator5.png) no-repeat 0 100%;
+}
+.side-nav li{
+	border-top:1px solid #cfcfd0;
+	padding:5px 0 7px;
+}
+.side-nav a{
+	color:#58585a;
+}
+.side-nav a:hover{
+	color:#003889;
+	text-decoration:none;
+}
+.side-nav ul{
+	padding:15px 0 0;
+	margin:0 0 -5px;
+	list-style:none;
+	font-size:12px;
+	line-height:15px;
+	background:url(../images/separator5.png) no-repeat 0 7px;
+}
+.side-nav ul li{
+	border:none;
+	padding:0 0 5px;
+}
+.side-nav ul a{
+	background:url(../images/bullet.png) no-repeat 0 5px;
+	padding:0 0 0 10px;
+}
+.side-nav ul a:hover{
+	background:url(../images/bullet-hover.png) no-repeat 0 5px;
+}
+#footer{
+	height:70px;
+	position:relative;
+	margin:-101px auto 0;
+	width:920px;
+	background:url(../images/bg-footer.png) no-repeat 50% 0;
+	padding:31px 27px 0 39px;
+}
+#footer .col{
+	float:left;
+	width:430px;
+	margin:0 0 0 20px;
+}
+.text-delphin-baden{
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url(../images/text-delphin-baden.png) no-repeat;
+	width:176px;
+	height:12px;
+	display:block;
+	margin:0 0 7px;
+}
+.text-delphin-hergiswil{
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url(../images/text-delphin-hergiswil.png) no-repeat;
+	width:358px;
+	height:12px;
+	display:block;
+	margin:0 0 7px;
+}
+#footer address{
+	padding:0;
+	display:block;
+}
+.delphin-baden-address{
+	background:url(../images/delphin-baden-address.png) no-repeat;
+	width:421px;
+	height:11px;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:relative;
+}
+.delphin-hergiswil-address{
+	background:url(../images/delphin-hergiswil-address.png) no-repeat;
+	width:420px;
+	height:11px;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:relative;
+}
+.delphin-baden-address .email{
+	position:absolute;
+	width:125px;
+	height:8px;
+	right:0;
+	top:0;
+}
+.delphin-hergiswil-address .email{
+	position:absolute;
+	width:125px;
+	height:8px;
+	right:0;
+	top:0;
+}
+.by{
+	background:url(../images/bg-by.png) no-repeat;
+	width:11px;
+	height:100px;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	top:-108px;
+	right:8px;
+}
+.by a{
+	height:100%;
+	display:block;
+}
